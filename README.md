@@ -1,6 +1,8 @@
-# Supervised Learning
+# Instrument Identification
 
-This is a script for determining the musical instrument playing in a given sound file.
+A classification model for identifying instruments based on sounds in the NSynth dataset.
+
+![musical-instruments-clipart](https://user-images.githubusercontent.com/3398606/59603636-eb350680-90d7-11e9-8f5e-c185f54cfd59.jpg)
 
 ## Installation and usage
 This project requires Python 3.x and the following Python libraries:
@@ -21,10 +23,10 @@ To use the script, simply execute the cells in the Notebook. An introduction, me
 The NSynth dataset is used in this project. This dataset is free and publically-available. However, it is too large to be included in this repository. 
 
 It can be downloaded [here](https://magenta.tensorflow.org/datasets/nsynth). In order for the code to work properly, the data must be in the correct subfolder: 
-
+```
 .
 ├───README.md
-├───Instrument Detection.ipynb
+├───Instrument_identification.ipynb
 ├───data
 │   ├───nsynth-test
 |   |   ├───audio
@@ -32,7 +34,7 @@ It can be downloaded [here](https://magenta.tensorflow.org/datasets/nsynth). In 
 │   └───nsynth-train
 |   |   ├───audio
 |   |   ├───examples.json
-
+```
 
 ## Credits
 Thank you to Github user NadimKawwa who published a similar analysis of the NSynth data, in much greater depth: https://github.com/NadimKawwa/NSynth
