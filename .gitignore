@@ -1,0 +1,6 @@
+/data
+/env
+.directory
+.ipynb_checkpoints/
+Data_Janitor.ipynb
+Random_Forest.ipynb
