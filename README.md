@@ -12,17 +12,18 @@ This project requires Python 3.x and the following Python libraries:
 - librosa
 - scikit-learn
 
-Furthermore you will also have to have software installed to run and execute a Jupyter Notebook. Instructions to do so can be found on the [Jupyter website](https://jupyter.org/install). Note that you cannot execute a Notebook on the Github website -- you must start your own Jupyter server.
+Furthermore you will also have to have software installed to run and execute a Jupyter Notebook ([instrument_identification.ipynb](https://github.com/nick-gibb/nsynth/blob/master/instrument_identification.ipynb)). Instructions to do so can be found on the [Jupyter website](https://jupyter.org/install). Note that Notebooks are static (view-only) on Github and thus to execute the code you must start your own Jupyter server.
 
-This repository also contains a raw Python script (converted from the Notebook. However, it is highly reccomended to execute the script within the Notebook.
+This repository also contains a [raw Python script](https://github.com/nick-gibb/nsynth/blob/master/instrument_identification.py) (converted from the Notebook). However, it is highly reccomended to execute the script within the Notebook. The full project documentation and analysis is only available in the Notebook.
 
-To use the script, simply execute the cells in the Notebook. An introduction, methodology, and dicussion of the project is also included within the Notebook as markdown text.
+To use the script, simply execute the cells in the Notebook (or run the Python script). An introduction, methodology, and dicussion of the project is also included within the Notebook (markdown text). 
 
 ## Data 
 
 The NSynth dataset is used in this project. This dataset is free and publically-available. However, it is too large to be included in this repository. 
 
-It can be downloaded [here](https://magenta.tensorflow.org/datasets/nsynth). In order for the code to work properly, the data must be in the correct subfolder: 
+Documentation and download information can be found [here](https://magenta.tensorflow.org/datasets/nsynth). For the Python code to run properly, the data must take the same folder and file names and folder structure as below. 
+
 ```
 .
 ├───README.md
